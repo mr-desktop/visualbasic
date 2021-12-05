@@ -1,0 +1,96 @@
+[Root]
+Most Recent Package=SUDOKU
+
+[Package|SUDOKU|BIENVENIDO A LA INSTALACIÓN DEL SUDOKU]
+Icon1=SUDOKU.exe
+Title1=JUGAR SUDOKU
+StartIn1=$(AppPath)
+Key1=Icon1
+
+
+[Package|SUDOKU|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\Documents and Settings\FREDDY\Escritorio\sudoku\Paquete
+
+[Package|SUDOKU|Configure DAO ISAMs]
+Applicable=No
+
+[Package|SUDOKU|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|SUDOKU|Files Found]
+
+[Package|SUDOKU|Files Released]
+
+[Package|SUDOKU|Missing Dependency Information]
+
+[Package|SUDOKU|Out-of-Date Dependency Information]
+
+[Package|SUDOKU|Files Added]
+
+[Package|SUDOKU|Files Removed]
+
+[Package|SUDOKU|Files In Project]
+D:\Documents and Settings\FREDDY\Escritorio\sudoku\SUDOKU.exe=Yes
+D:\WINDOWS\system32\msvbvm60.dll=Yes
+D:\WINDOWS\system32\oleaut32.dll=Yes
+D:\WINDOWS\system32\olepro32.dll=Yes
+D:\WINDOWS\system32\asycfilt.dll=Yes
+D:\WINDOWS\system32\stdole2.tlb=Yes
+D:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+D:\WINDOWS\system32\VB6ES.DLL=Yes
+D:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+D:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+D:\WINDOWS\system32\VB6STKIT.DLL=Yes
+D:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|SUDOKU|Configure Registry Files]
+Applicable=No
+
+[Package|SUDOKU|Configure Remote Servers]
+Applicable=No
+
+[Package|SUDOKU|Install Locations]
+D:\Documents and Settings\FREDDY\Escritorio\sudoku\SUDOKU.exe=$(AppPath)
+D:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+D:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+D:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+D:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+D:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+D:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+D:\WINDOWS\system32\VB6ES.DLL=$(WinSysPath)
+D:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+D:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+D:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+D:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|SUDOKU|Configure Shared Files]
+Applicable=Yes
+D:\Documents and Settings\FREDDY\Escritorio\sudoku\SUDOKU.exe=No
+
+[Package|SUDOKU|Distribution]
+Type=single
+Size=
+Title=INSTALACIÓN DEL SUDOKU
+
+[Package|SUDOKU|IconGroups]
+Group0=SUDOKU
+PrivateGroup0=Falso
+Parent0=$(Programs)
+
+[Package|SUDOKU|SUDOKU]
+Icon1=SUDOKU.exe
+Title1=JUGAR SUDOKU
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|SUDOKU|Package]
+PackageFolder=D:\Documents and Settings\FREDDY\Escritorio\sudoku\Paquete
+ProjectFolder=D:\Documents and Settings\FREDDY\Escritorio\sudoku
+ServerSideCab=
+File1=D:\Documents and Settings\FREDDY\Escritorio\sudoku\Paquete\setup.exe
+File2=D:\Documents and Settings\FREDDY\Escritorio\sudoku\Paquete\Setup.Lst
+File3=D:\Documents and Settings\FREDDY\Escritorio\sudoku\Paquete\SUDOKU.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
